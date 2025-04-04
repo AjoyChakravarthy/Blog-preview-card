@@ -1,0 +1,134 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Figtree", sans-serif;
+   font-weight: 500, 800;
+}
+
+body {
+   background-color: hsl(47, 88%, 63%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+.card {
+   background-color: white;
+   border-radius: 15px;
+   box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+   width: 320px;
+   padding: 20px;
+   text-align: left;
+   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+   border: 1px solid black;
+   margin: 0 auto;
+}
+
+.card:hover,
+.card:focus-within {
+   transform: translateY(-5px);
+   box-shadow: 12px 12px 0px hsl(0, 0%, 7%);
+   cursor: pointer;
+}
+
+.card-image {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.card-content {
+   margin-top: 15px;
+}
+
+.tag {
+   background-color: hsl(47, 88%, 63%);
+   font-size: 12px;
+   padding: 4px 8px;
+   border-radius: 5px;
+   display: inline-block;
+   font-weight: bold;
+   transition: background-color 0.2s ease-in-out;
+}
+
+.date {
+   font-size: 12px;
+   color: gray;
+   margin: 8px 0;
+}
+
+.title {
+   font-size: 18px;
+   font-weight: bold;
+   transition: color 0.2s ease-in-out;
+}
+
+.title:hover,
+.title:focus {
+   color: hsl(47, 88%, 63%);
+}
+
+.description {
+   font-size: 16px;
+   color: #555;
+   margin: 10px 0;
+}
+
+.author {
+   display: flex;
+   align-items: center;
+   margin-top: 15px;
+}
+
+.author-image {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   margin-right: 10px;
+   transition: transform 0.2s ease-in-out;
+}
+
+.author-image:hover,
+.author-image:focus {
+   transform: scale(1.1);
+}
+
+.author-name {
+   font-size: 14px;
+   font-weight: bold;
+   transition: color 0.2s ease-in-out;
+}
+
+.author-name:hover,
+.author-name:focus {
+   color: hsl(47, 88%, 63%);
+}
+
+*:focus {
+   outline: 2px solid hsl(47, 88%, 63%);
+   outline-offset: 2px;
+}
+
+@media (max-width: 375px) {
+   body {
+      padding: 10px;
+      margin: 10px;
+   }
+   .card {
+      max-width: 80%;
+      padding: 15px;
+   }
+
+   .title {
+      font-size: 16px;
+   }
+
+   .description {
+      font-size: 10px;
+   }
+
+   .author-name {
+      font-size: 12px;
+   }
+}
