@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
--  Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-flexbox-mBlgUJDoY1)
--  Live Site URL: [Add live site URL here](https://blog-preview-card-two-beryl.vercel.app/)
+-  Solution URL: [Github](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-flexbox-mBlgUJDoY1)
+-  Live Site URL: [Vercel](https://blog-preview-card-two-beryl.vercel.app/)
 
 ## My process
 
